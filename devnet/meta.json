@@ -1,0 +1,75 @@
+{
+  "chain_name": "devnet",
+  "status": "live",
+  "network_type": "devnet",
+  "pretty_name": "devnet",
+  "chain_id": "devnet",
+  "bech32_prefix": "overlock",
+  "daemon_name": "overlock",
+  "node_home": "$HOME/.overlock",
+  "codebase": {
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/overlock-network/net/main/devnet/genesis.json"
+    },
+    "git_repo": "github.com/overlock-network/node",
+    "recommended_version": "0.0.27",
+    "compatible_versions": ["0.0.27"],
+    "binaries": {
+      "darwin/amd64": "https://github.com/overlock-network/node/releases/download/",
+      "darwin/arm64": "https://github.com/overlock-network/node/releases/download/",
+      "linux/amd64": "https://github.com/overlock-network/node/releases/download/",
+      "linux/arm64": "https://github.com/overlock-network/node/releases/download/"
+    }
+  },
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uoverlock",
+        "fixed_min_gas_price": 0.00025,
+        "low_gas_price": 0.00025,
+        "average_gas_price": 0.0025,
+        "high_gas_price": 0.025
+      }
+    ]
+  },
+  "peers": {
+    "seeds": [],
+    "persistent_peers": [
+      {
+        "id": "e06a303953a66de205d35e6ab1f17c0dc035a516",
+        "address": "p2p.devnet-01.ovrlk.pw:26656"
+      },
+      {
+        "id": "130dd841be22674b5d2840827a86386652a2d96a",
+        "address": "p2p.devnet-01.ovrlk.pw:26651"
+      },
+      {
+        "id": "05be3cd53c5fca5dec6f3bee21eb5f2d1ac9e667",
+        "address": "p2p.devnet-01.ovrlk.pw:26652"
+      },
+      {
+        "id": "3a0f6ca48168538663eb06e7fa36b1ce09a771f0",
+        "address": "p2p.devnet-01.ovrlk.pw:26653"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "http://35.209.0.216:26657"
+      }
+    ],
+    "rest": [
+      {
+        "address": "http://35.209.0.216:1317",
+        "provider": "overlock"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "http://35.209.0.216:26657",
+        "provider": "overlock"
+      }
+    ]
+  }
+}
