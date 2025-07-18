@@ -56,18 +56,18 @@
   "apis": {
     "rpc": [
       {
-        "address": "http://35.209.0.216:26657"
+        "address": "https://devnet.overlock.pub:26657"
       }
     ],
     "rest": [
       {
-        "address": "http://35.209.0.216:1317",
+        "address": "https://devnet.overlock.pub:1317",
         "provider": "overlock"
       }
     ],
     "grpc": [
       {
-        "address": "http://35.209.0.216:26657",
+        "address": "https://devnet.overlock.pub:26657",
         "provider": "overlock"
       }
     ]
