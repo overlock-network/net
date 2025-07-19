@@ -1,7 +1,7 @@
 {
   "app_name": "overlockd",
-  "app_version": "0.0.25-dbd43d9d",
-  "genesis_time": "2025-04-24T17:55:32.627839015Z",
+  "app_version": "",
+  "genesis_time": "2025-07-19T16:02:38.127532292Z",
   "chain_id": "overlock",
   "initial_height": 1,
   "app_hash": null,
@@ -19,14 +19,14 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "cosmos15hun7hrsw6rukjcad6yy2c4ccywu2nysze3279",
+          "address": "cosmos1f8gdc3q9en5fwl72lmjddxvqta4l495ha6vt0q",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "cosmos1d47xwrwyxj0s44g3rt2ncd9n5svwxdsu4qrxac",
+          "address": "cosmos1yqkqg8xrwyfm43rn7cjgu0qq3es3kujtny5t45",
           "pub_key": null,
           "account_number": "1",
           "sequence": "0"
@@ -43,48 +43,28 @@
       },
       "balances": [
         {
-          "address": "cosmos1d47xwrwyxj0s44g3rt2ncd9n5svwxdsu4qrxac",
+          "address": "cosmos1yqkqg8xrwyfm43rn7cjgu0qq3es3kujtny5t45",
           "coins": [
             {
-              "denom": "stake",
-              "amount": "100000000"
-            },
-            {
-              "denom": "token",
-              "amount": "10000"
-            },
-            {
-              "denom": "utoken",
-              "amount": "10000000000"
+              "denom": "ovk",
+              "amount": "500000000"
             }
           ]
         },
         {
-          "address": "cosmos15hun7hrsw6rukjcad6yy2c4ccywu2nysze3279",
+          "address": "cosmos1f8gdc3q9en5fwl72lmjddxvqta4l495ha6vt0q",
           "coins": [
             {
-              "denom": "stake",
-              "amount": "200000000"
-            },
-            {
-              "denom": "token",
-              "amount": "20000"
+              "denom": "ovk",
+              "amount": "1000000000"
             }
           ]
         }
       ],
       "supply": [
         {
-          "denom": "stake",
-          "amount": "300000000"
-        },
-        {
-          "denom": "token",
-          "amount": "30000"
-        },
-        {
-          "denom": "utoken",
-          "amount": "10000000000"
+          "denom": "ovk",
+          "amount": "1500000000"
         }
       ],
       "denom_metadata": [],
@@ -101,7 +81,7 @@
     "consensus": null,
     "crisis": {
       "constant_fee": {
-        "denom": "stake",
+        "denom": "ovk",
         "amount": "1000"
       }
     },
@@ -158,18 +138,18 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "",
-                "validator_address": "cosmosvaloper15hun7hrsw6rukjcad6yy2c4ccywu2nys8d9ljk",
+                "validator_address": "cosmosvaloper1f8gdc3q9en5fwl72lmjddxvqta4l495hcwc7rn",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "USjC5VDmMJR6VEB7PlyTdk/QSGx4usFPOJf6DEZ9wqA="
+                  "key": "B+qMPELpAMn5iFeZjpnDDN6+Tw0vrZs6/T/UGhxkhkA="
                 },
                 "value": {
-                  "denom": "stake",
-                  "amount": "100000000"
+                  "denom": "ovk",
+                  "amount": "1000000000"
                 }
               }
             ],
-            "memo": "9bc1f049efcbb6966e65652805c62549290d8afa@192.168.0.126:26656",
+            "memo": "df4145ff9820350a8506a196e23b479bed15330a@192.168.0.126:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -179,7 +159,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A7GqY/w7nLPouQWMAV3RJqY8ImWqFyabieqh5Madan8l"
+                  "key": "A0dSbT458HO7VRpnE8lIRFhf8w7vGja/tx3N5l3lPptd"
                 },
                 "mode_info": {
                   "single": {
@@ -198,7 +178,7 @@
             "tip": null
           },
           "signatures": [
-            "uqUXI4LLoovlVFXfhkvgskIKa5jURspVVTGMFHy5YlwANh94Z4zAMZI5VBdeSIg/U5LVUkTTUkBthRrTdJAcOw=="
+            "szxh6vGo/8xMfUOTbp6FoBcjfDC4Qkln4/zW+Uxoqw4f+Oa9QiGmrOVhzRL1ueumqWasqgYAch9S1AHwfXjjVg=="
           ]
         }
       ]
@@ -214,7 +194,7 @@
       "params": {
         "min_deposit": [
           {
-            "denom": "stake",
+            "denom": "ovk",
             "amount": "10000000"
           }
         ],
@@ -230,7 +210,7 @@
         "expedited_threshold": "0.667000000000000000",
         "expedited_min_deposit": [
           {
-            "denom": "stake",
+            "denom": "ovk",
             "amount": "50000000"
           }
         ],
@@ -319,7 +299,7 @@
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
-        "mint_denom": "stake",
+        "mint_denom": "ovk",
         "inflation_rate_change": "0.130000000000000000",
         "inflation_max": "0.200000000000000000",
         "inflation_min": "0.070000000000000000",
@@ -353,7 +333,7 @@
         "max_validators": 100,
         "max_entries": 7,
         "historical_entries": 10000,
-        "bond_denom": "stake",
+        "bond_denom": "ovk",
         "min_commission_rate": "0.000000000000000000"
       },
       "last_total_power": "0",
@@ -377,7 +357,19 @@
       "total_escrowed": []
     },
     "upgrade": {},
-    "vesting": {}
+    "vesting": {},
+    "wasm": {
+      "params": {
+        "code_upload_access": {
+          "permission": "Everybody",
+          "addresses": []
+        },
+        "instantiate_default_permission": "Everybody"
+      },
+      "codes": [],
+      "contracts": [],
+      "sequences": []
+    }
   },
   "consensus": {
     "params": {
