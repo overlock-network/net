@@ -4,7 +4,7 @@
   "network_type": "devnet",
   "pretty_name": "devnet",
   "chain_id": "devnet",
-  "bech32_prefix": "overlock",
+  "bech32_prefix": "cosmos",
   "daemon_name": "overlock",
   "node_home": "$HOME/.overlock",
   "codebase": {
