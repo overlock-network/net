@@ -4,7 +4,7 @@
   "network_type": "develop",
   "pretty_name": "develop",
   "chain_id": "develop",
-  "bech32_prefix": "overlock",
+  "bech32_prefix": "cosmos",
   "daemon_name": "overlock",
   "node_home": "$HOME/.overlock",
   "codebase": {
